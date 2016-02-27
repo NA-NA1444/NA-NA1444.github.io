@@ -386,7 +386,7 @@ i.heart:hover{
 i.icon1{
 	width: 145px;
 	height: 145px;
-	background: url(../images/img-sprite.png)-173px -7px;
+	background: url()-173px -7px;
 	display: inline-block;
 }
 i.icon2{
