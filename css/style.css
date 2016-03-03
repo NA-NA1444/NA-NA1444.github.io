@@ -398,13 +398,13 @@ i.icon2{
 i.icon3{
 	width: 145px;
 	height: 145px;
-	background: url(https://image.freepik.com/free-icon/pencil-writing-tool-symbol-in-circular-button-outline_318-70355.png)-172px -158px;
+	background: url(../images/img-sprite.png)-172px -158px;
 	display: inline-block;
 }
 i.icon4{
 	width: 145px;
 	height: 145px;
-	background: url(http://www.naturesongs.com/camera.gif)-336px -155px;
+	background: url(../images/img-sprite)-336px -155px;
 	display: inline-block;
 }
 h3.m_1{
