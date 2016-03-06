@@ -169,7 +169,7 @@ p.bottom_desc{
 	height: 80px;
 	display: inline-block;
 	background: url(https://cdn3.iconfinder.com/data/icons/web-interface-pt-7/100/339_-_palette-128.png) no-repeat 0px 5px;
-	vertical-align: middle;
+	vertical-align: top;
 }
 .navbar-nav li.active a, .navbar-nav li.hover a{
 	color: #ffb500;
