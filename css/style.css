@@ -21,7 +21,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .header{
-	background:url(http://orig07.deviantart.net/b319/f/2013/017/b/a/galaga_ship_by_camdencc-d5rt6sa.gif);
+	background:url(../images/bg.png);
 	min-height:819px;
 }
 .logo{
