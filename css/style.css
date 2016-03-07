@@ -588,7 +588,7 @@ ul.contact_info span.msg:hover{
 	text-decoration:underline;
 }
 .contact_right{
-	background:#red;
+	background:red;
 	padding:2em;
 }
 .contact-form_grid {
