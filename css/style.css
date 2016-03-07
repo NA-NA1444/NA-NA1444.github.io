@@ -450,13 +450,13 @@ h3.m_3{
 	border:2px solid #ffb500;
 }
 .contact-form input[type="submit"] {
-	background: #FEB400;
+	background: red;
 	background: -moz-linear-gradient(top, rgba(254,180,0,1) 0%, rgba(225,156,0,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB400), color-stop(100%,#E19C00));
-	background: -webkit-linear-gradient(top, #FEB400 0%,#E19C00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,red), color-stop(100%,red));
+	background: -webkit-linear-gradient(top, red 0%,red 100%);
 	background: -o-linear-gradient(top, rgba(254,180,0,1) 0%,rgba(225,156,0,1) 100%);
 	background: -ms-linear-gradient(top, rgba(254,180,0,1) 0%,rgba(225,156,0,1) 100%);
-	background: linear-gradient(to bottom, #FEB400 0%,#E19C00 100%);
+	background: linear-gradient(to bottom, red 0%,#red 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb400', endColorstr='#e19c00',GradientType=0 );
 	padding: 0.7em 2em;
 	display: inline-block;
@@ -481,7 +481,7 @@ h3.m_3{
 /*--about--*/
 .about{
 	padding:5em 0;
-	background:#fcb200;
+	background:red;
 }
 .about-grid img {
 	border-radius: 10em;
@@ -633,7 +633,7 @@ ul.contact_info span.msg:hover{
 	background: #414042;
 	padding: 0.8em 5em;
 	display: inline-block;
-	color: #FCB200;
+	color: red;
 	font-weight: bold;
 	font-size: 1em;
 	transition: 0.5s ease;
