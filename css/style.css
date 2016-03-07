@@ -160,7 +160,7 @@ p.bottom_desc{
 	vertical-align: top;
 }
 .navbar-nav li.active a, .navbar-nav li.hover a{
-	color: #ffb500;
+	color: red;
 	background:#35353f;
 }
 .right-msg{
