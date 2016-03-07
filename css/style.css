@@ -346,7 +346,7 @@ i.heart:hover{
 	background: url(../images/hand-hover.png)0px 2px;
 }
 .portfolio_bottom{
-	background:#35353f;
+	background: url(../images/signup.png)0px 2px;
 	text-align: center;
 	padding:3em 0;
 }
