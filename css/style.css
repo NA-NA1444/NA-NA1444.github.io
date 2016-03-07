@@ -80,7 +80,7 @@ body a{
 	-o-border-radius: 1em;
 }
 .wmuSliderPagination a.wmuActive {
-	background:#ffb500;
+	background:red;
 }
 /* Default Skin */
 .wmuGallery .wmuGalleryImage {
@@ -139,7 +139,7 @@ p.bottom_desc{
 	color:#fff;
 }
 .navbar-custom {
-	background: #ffb500;
+	background: red;
 }
 .subMenu {
 	position: absolute;
@@ -355,7 +355,7 @@ i.heart:hover{
 	background:#fff;
 }
 .services{
-	background:#ffb500;
+	background:red;
 	padding:5em 0;
 }
 i.icon1{
@@ -665,7 +665,7 @@ ul.contact_info span.msg:hover{
 	color:#fff;
 }
 .copy p a{
-	color:#FCB200;
+	color:red;
 }
 .social {
 	float: right;
