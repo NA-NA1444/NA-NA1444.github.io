@@ -436,7 +436,7 @@ h3.m_3{
 	font-size: 1em;
 	color: #FFF;
 	background:#595A5D;
-	border:2px solid #595A5D;
+	border:2px solid red;
 	float: left;
 	border-radius: 0.2em;
 	-webkit-border-radius: 0.2em;
