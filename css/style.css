@@ -656,6 +656,7 @@ ul.contact_info span.msg:hover{
 .footer{
 	background:#35353f;
 	padding:2em 0;
+	border: red;
 }
 .copy{
 	float:left;
