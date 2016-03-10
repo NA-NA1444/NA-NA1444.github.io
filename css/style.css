@@ -601,7 +601,7 @@ ul.contact_info span.msg:hover{
 	outline: none;
 	margin: 0.2em;
 	font-size: 0.85em;
-	color: #D6D5D5;
+	color: grey;
 	background: #FFF;
 	border: none;
 	border-radius: 0.3em;
@@ -619,7 +619,7 @@ ul.contact_info span.msg:hover{
 	margin: 1em 0;
 	border: none;
 	outline: none;
-	color:#D6D5D5;
+	color:grey;
 	font-size:1em;
 	background: #F9F8F8;
 	text-align: center;
