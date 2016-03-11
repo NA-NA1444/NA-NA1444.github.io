@@ -429,7 +429,7 @@ h3.m_3{
 .contact-form input[type="text"] {
 	display: block;
 	width: 29%;
-	padding: 0.6em;
+	padding: 3px;
 	border: none;
 	outline: none;
 	margin: 0.2em;
@@ -475,7 +475,7 @@ h3.m_3{
 }
 .contact-form input[type="submit"]:hover{
 	color:#fff;
-	padding:3px;
+	padding: 3px;
 }
 /*--about--*/
 .about{
