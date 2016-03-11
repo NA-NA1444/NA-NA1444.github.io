@@ -309,12 +309,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
        <div class="container">
    			<h3 class="m_3">Are you Interested ? <br> Sign up now</h3>
    			<div class="contact-form">
-   			   <form method ="post" action="//formspree.io/210829@Hkis.edu.hk">
-				 <input type="text" name="name" class="textbox" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}">
-				 <input type="text" name="lastname" class="textbox" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}">
-				 <input type="text"  name="email" class="textbox" value="Email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address';}">
-				 <input type="submit" value="Sign Up">
-               </form>
+   			   <form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="POST">
+   <label>First Name</label>
+   <input type="text" name="name" />
+   <label>Last Name</label>
+   <input type="text" name="subject" />
+   <label>email</label>
+   <input type="text" name="phone" />
+ 
+   <input type="submit" name="send" value="Send Message" />
+</form>
 			</div>
    		</div>
    	</div>
@@ -363,7 +367,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="col-md-4">
    					<div class="contact_right">
    				<div class="contact-form_grid">
-<form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="post">
+<form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="POST">
    <label>Name</label>
    <input type="text" name="name" />
    <label>Subject</label>
