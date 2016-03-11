@@ -363,21 +363,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="col-md-4">
    					<div class="contact_right">
    				<div class="contact-form_grid">
-					<form id="contact_form" method="POST"  action="http://formspree.io/210829@hkis.edu.hk" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="message">Your message:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-</form>						
+<form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="post">
+   <label>Name</label>
+   <input type="text" name="name" />
+   <label>Subject</label>
+   <input type="text" name="subject" />
+   <label>Phone Number</label>
+   <input type="text" name="phone" />
+   <label>Message</label>
+   <textarea name="message"></textarea>
+ 
+   <input type="submit" name="send" value="Send Message" />
+</form>
 			      </div>
    			     </div>
    				</div>
