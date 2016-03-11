@@ -475,6 +475,7 @@ h3.m_3{
 }
 .contact-form input[type="submit"]:hover{
 	color:#fff;
+	padding:3px;
 }
 /*--about--*/
 .about{
