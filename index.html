@@ -311,9 +311,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    			<div class="contact-form">
    			   <form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="POST">
    <label>First Name</label>
-   <input type="text" name="name" />
+   <input type="text" name="name" class="textbox" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" />
    <label>Last Name</label>
-   <input type="text" name="subject" />
+   <input type="text" name="subject" class="textbox" value="Email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address';}" />
    <label>email</label>
    <input type="text" name="phone" />
  
@@ -369,15 +369,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    				<div class="contact-form_grid">
 <form name="contact" action="http://formspree.io/210829@hkis.edu.hk" method="POST">
    <label>Name</label>
-   <input type="text" name="name" />
+   <input type="text" name="name"/>
    <label>Subject</label>
-   <input type="text" name="subject" />
+   <input type="text" name="subject" class="textbox" value="First Name"/>
    <label>email</label>
    <input type="text" name="phone" />
    <label>Message</label>
    <textarea name="message"></textarea>
  
-   <input type="submit" name="send" value="Send Message" />
+   <input type="submit" name="send" value="Sign Up" />
 </form>
 			      </div>
    			     </div>
