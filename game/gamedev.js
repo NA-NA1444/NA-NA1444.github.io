@@ -144,7 +144,7 @@ $("#forward4").click(function() {
     $("#endh").show({});
 
   });
-});
+
 
 $("#forward6").click(function() {
     $("#back6").hide({});
@@ -166,3 +166,6 @@ $("#forward6").click(function() {
 $("#amonster1").slideUp(200).delay(900).show(1000);
 $("#gameover1").slideUp(200).delay(5200).show(3000);
 });
+});
+
+
