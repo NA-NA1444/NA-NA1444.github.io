@@ -368,6 +368,7 @@ border-style: solid;
     position: absolute;
     top: 200px;
     left: 690px;
+        transform: scale(2,2);
     -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
